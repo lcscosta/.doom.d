@@ -80,3 +80,5 @@
 
 (add-hook! '+doom-dashboard-functions :append
   (insert "\n" (+doom-dashboard--center +doom-dashboard--width "Powered by @lcscosta")))
+
+(load (concat doom-user-dir "lisp/run-python"))
